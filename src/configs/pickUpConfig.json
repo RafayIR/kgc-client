@@ -1,0 +1,73 @@
+{
+    "fields": [
+        {
+            "name": "Vendor Code",
+            "id": "vendor_code",
+            "type": "billing_list",
+            "placeholder": "Select Vendor Code",
+            "options": [
+                {
+                    "name": "",
+                    "vendor_code": ""
+                }
+            ],
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Pickup Location Name",
+            "id": "pickup_location_name",
+            "type": "inputText",
+            "placeholder": "Enter Pickup Location Name",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Pickup Location Address",
+            "id": "pickup_location_address",
+            "type": "inputText",
+            "placeholder": "Enter Pickup Location Address",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Pickup Location City",
+            "id": "pickup_location_city",
+            "type": "inputText",
+            "placeholder": "Enter Pickup Location City",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Pickup Location State",
+            "id": "pickup_location_state",
+            "type": "inputText",
+            "placeholder": "Enter Pickup Location State",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Pickup Location Country",
+            "id": "pickup_location_country",
+            "type": "inputText",
+            "placeholder": "Enter Pickup Location Country",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Pickup Location Postal Code",
+            "id": "pickup_location_postal_code",
+            "type": "inputText",
+            "placeholder": "Enter Pickup Location Postal Code",
+            "rules": [
+                "required"
+            ]
+        }
+    ]
+}

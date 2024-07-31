@@ -1,0 +1,134 @@
+{
+    "fields": [
+        {
+            "name": "CODE",
+            "id": "code",
+            "type": "code",
+            "placeholder": "Enter Code",
+            "rules": [
+                "required",
+                {
+                    "type": "matchRegexp",
+                    "data": "^.{1,15}$",
+                    "error": "Invalid Code"
+                }
+            ]
+        },
+        {
+            "name": "NAME",
+            "id": "name",
+            "type": "name",
+            "placeholder": "Enter Name",
+            "rules": [
+                "required",
+                {
+                    "type": "matchRegexp",
+                    "data": "^([a-zA-Z]+|[a-zA-Z]+\\s{1}[a-zA-Z]{1,}|[a-zA-Z]+\\s{1}[a-zA-Z]{3,}\\s{1}[a-zA-Z]{1,})$",
+                    "error": "Invalid name"
+                }
+            ]
+        },
+        {
+            "name": "EMAIL",
+            "id": "email",
+            "type": "email",
+            "placeholder": "username@email.com",
+            "rules": [
+                "required",
+                "isEmail"
+            ]
+        },
+        {
+            "name": "ADDRESS 1",
+            "id": "address_1",
+            "type": "address_1",
+            "placeholder": "Enter Address 1",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "ADDRESS 2",
+            "id": "address_2",
+            "type": "address_2",
+            "placeholder": "Enter Address 2",
+            "rules": []
+        },
+        {
+            "name": "CITY",
+            "id": "city",
+            "type": "city",
+            "placeholder": "Enter City",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "STATE",
+            "id": "stateProvince",
+            "type": "stateProvince",
+            "placeholder": "Enter State/Province",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "ZIP",
+            "id": "zipPostal",
+            "type": "zipPostal",
+            "placeholder": "Enter Zip/Postal Code",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "COUNTRY",
+            "id": "country",
+            "type": "country",
+            "placeholder": "Enter Country",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "REGION",
+            "id": "region",
+            "type": "region",
+            "placeholder": "Enter Region",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "PHONE #",
+            "id": "phone",
+            "type": "phone",
+            "placeholder": "Enter Phone Number",
+
+            "rules": [
+               
+            ]
+        },
+        {
+            "name": "FAX",
+            "id": "fax",
+            "type": "fax",
+            "placeholder": "Enter Fax Number",
+            "rules": []
+        },
+        {
+            "name": "Is Local",
+            "id": "isLocal",
+            "type": "checkbox",
+            "defaultValue": false,
+            "rules": []
+        },
+        {
+            "name": "NTN #",
+            "id": "ntn",
+            "type": "ntn",
+            "placeholder": "Enter NTN Number",
+            "rules": []
+        }
+    ]
+}

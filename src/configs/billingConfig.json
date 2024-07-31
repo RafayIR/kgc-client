@@ -1,0 +1,101 @@
+{
+    "fields": [
+        {
+            "name": "Vendor Code",
+            "id": "vendor_code",
+            "type": "billing_list",
+            "placeholder": "Select Vendor Code",
+            "options": [
+                {
+                    "name": "",
+                    "vendor_code": ""
+                }
+            ],
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Billing Contact Name",
+            "id": "billing_contact_name",
+            "type": "inputText",
+            "placeholder": "Enter Billing Contact Name",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Billing Email",
+            "id": "billing_email",
+            "type": "inputText",
+            "placeholder": "username@billing.com",
+            "rules": [
+                "required",
+                {
+                    "type": "matchRegexp",
+                    "data": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+                    "error": "Invalid email address"
+                }
+            ]
+        },
+        {
+            "name": "Billing Phone",
+            "id": "billing_phone",
+            "type": "inputText",
+            "placeholder": "Enter Billing Phone Number",
+            "rules": [
+                "required",
+                {
+                    "type": "matchRegexp",
+                    "data": "^\\d{10,15}$",
+                    "error": "Invalid phone number"
+                }
+            ]
+        },
+        {
+            "name": "Billing Address",
+            "id": "billing_address",
+            "type": "inputText",
+            "placeholder": "Enter Billing Address",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Billing City",
+            "id": "billing_city",
+            "type": "inputText",
+            "placeholder": "Enter Billing City",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Billing State",
+            "id": "billing_state",
+            "type": "inputText",
+            "placeholder": "Enter Billing State",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Billing Country",
+            "id": "billing_country",
+            "type": "inputText",
+            "placeholder": "Enter Billing Country",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Billing Postal Code",
+            "id": "billing_postal_code",
+            "type": "inputText",
+            "placeholder": "Enter Billing Postal Code",
+            "rules": [
+                "required"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "fields": [
+        {
+            "name": "Code",
+            "id": "code",
+            "type": "inputText",
+            "placeholder": "Enter Code",
+            "rules": [
+                "required"
+            ]
+        },
+        {
+            "name": "Name",
+            "id": "name",
+            "type": "inputText",
+            "placeholder": "Enter Name",
+            "rules": [
+                "required",
+                {
+                    "type": "matchRegexp",
+                    "data": "^([a-zA-Z]+|[a-zA-Z]+\\s{1}[a-zA-Z]{1,}|[a-zA-Z]+\\s{1}[a-zA-Z]{3,}\\s{1}[a-zA-Z]{1,})$",
+                    "error": "Invalid name"
+                }
+            ]
+        }
+    ]
+}

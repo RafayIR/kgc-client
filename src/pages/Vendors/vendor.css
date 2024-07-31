@@ -1,0 +1,4 @@
+.field-input .MuiInputBase-root input{
+    height: auto !important;
+    padding: 14px 14px;
+}
